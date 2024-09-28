@@ -1,6 +1,4 @@
-**# hall-broad-stats
- [Hall] Stats to Broadcast Bots
-**# Bot Installation Guide
+# Bot Installation Guide
 
 ## Introduction
 
