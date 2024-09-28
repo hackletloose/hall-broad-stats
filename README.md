@@ -57,11 +57,13 @@ Make sure the broadcast.json file contains valid broadcast messages. This file i
 ]
 ```
 ### 6. Run the Bot
+Disable the AutoBroadcast funktion in your crcon!
 Start the bot using the following command:
 ```
 python bot.py
 ```
 ### 7. Usage
+Disable the AutoBroadcast funktion in your crcon!
 The bot will now:
 
 - Fetch player statistics from the API.
