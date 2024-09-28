@@ -60,7 +60,7 @@ Make sure the broadcast.json file contains valid broadcast messages. This file i
 Disable the AutoBroadcast funktion in your crcon!
 Start the bot using the following command:
 ```
-python bot.py
+python broad-stats.py
 ```
 ### 7. Usage
 Disable the AutoBroadcast funktion in your crcon!
