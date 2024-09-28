@@ -4,6 +4,13 @@
 
 This bot gathers player statistics, sends broadcast messages, and uses an RCON-API integration to communicate with players. Follow the steps below to install and run the bot.
 
+ToDo:
+Execute the following commands after downloading:
+1. Copy the `.env.dist` file to `.env` and enter your values.
+2. Run the command `pip install python-dotenv`.
+3. Copy `broad-stats.service.dist` to `/etc/systemd/system/broad-stats.service`
+4. Activate and start the service with `sudo systemctl enable broad-stats.service` and `sudo systemctl start broad-stats.service`.
+
 ## Prerequisites
 
 Before installing the bot, make sure you have the following:
