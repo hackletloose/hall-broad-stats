@@ -1,0 +1,12 @@
+[Unit]
+Description=broad-stats - Get Statistics Feed of Players in Broadcast of your Gameserver
+After=network.target
+
+[Service]
+User=<your-username>
+WorkingDirectory=/path/to/your/hall-broad-stats
+ExecStart=/usr/bin/python3 /path/to/your/hall-broad-stats/broad-stats.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
