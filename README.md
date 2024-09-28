@@ -22,8 +22,8 @@ First, clone this repository to your local machine:
 
 ```
 bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/hackletloose/hall-braod-stats.git
+cd hall-broad-stats
 ```
 ### 2. Setup a virtual Environment (Optional)
 It is recommended to use a virtual environment to manage dependencies:
