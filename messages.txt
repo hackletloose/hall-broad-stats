@@ -1,0 +1,11 @@
+7 Willkommen beim {servername}\n Bitte Serverregeln beachten!
+7 Discord: https://discord.gg/1bv
+7 Anmerkungen, Kritik oder ähnliches kann gerne mit !admin gemeldet werden
+7 Schließt euch in den Squads zusammen - Vermeidet Solo/Single Squads
+7 Bei nicht Beachtung der Regeln werden wir handeln!
+7 Nächste Map {nextmap}
+60 Du willst VIP bekommen? 
+60 Dann joine unserem Discord und registriere dich mit deiner SteamID
+60 Erhalte einen 14-tägigen VIP Zugang. Wie das geht, erfährst du bei uns auf dem Discord
+60 Discord: https://discord.gg/1bv
+60 Protected by hackletloose.eu
