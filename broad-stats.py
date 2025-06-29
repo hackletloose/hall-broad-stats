@@ -17,7 +17,11 @@ def log(message):
 def get_team_view(api_token):
     url = f"{BASE_URL}/api/get_team_view"
     headers = {"Authorization": f"Bearer {api_token}"}
-    response = requests.get(url, headers=headers)
+    try:
+        response = requests.get(url, headers=headers)
+    except requests.RequestException as e:
+        log(f"Request failed: {e}")
+        return None
     if response.status_code == 200:
         team_view_data = response.json()
         if "allies" in team_view_data["result"] and "axis" in team_view_data["result"]:
@@ -56,11 +60,17 @@ def send_broadcast(api_token, message):
     api_data = {"message": message, "save": "True"}
     api_url = f"{BASE_URL}/api/set_broadcast"
     headers = {"Authorization": f"Bearer {api_token}"}
-    response = requests.post(api_url, json=api_data, headers=headers)
+    try:
+        response = requests.post(api_url, json=api_data, headers=headers)
+    except requests.RequestException as e:
+        log(f"Request failed: {e}")
+        return False
     if response.status_code == 200:
         log(f"Data successfully sent to the API: {message}")
+        return True
     else:
         log(f"Error sending data to the API. {response.status_code}")
+        return False
 
 def print_top_players(all_players, category_name, title):
     if not all_players or not all(isinstance(player, dict) for player in all_players):
